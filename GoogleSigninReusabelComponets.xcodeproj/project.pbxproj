@@ -12,8 +12,6 @@
 		0CD557342060FF7900946F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD557322060FF7900946F21 /* Main.storyboard */; };
 		0CD557362060FF7900946F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD557352060FF7900946F21 /* Assets.xcassets */; };
 		0CD557392060FF7A00946F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CD557372060FF7A00946F21 /* LaunchScreen.storyboard */; };
-		0CD557442060FF7A00946F21 /* GoogleSigninReusabelComponetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD557432060FF7A00946F21 /* GoogleSigninReusabelComponetsTests.swift */; };
-		0CD5574F2060FF7A00946F21 /* GoogleSigninReusabelComponetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5574E2060FF7A00946F21 /* GoogleSigninReusabelComponetsUITests.swift */; };
 		0CD5576820611E4D00946F21 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5576720611E4D00946F21 /* LoginManager.swift */; };
 		0CD5576A20611E5500946F21 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD5576920611E5500946F21 /* UserData.swift */; };
 		0CD5576C206129CD00946F21 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0CD5576B206129CD00946F21 /* README.md */; };
@@ -48,11 +46,7 @@
 		0CD557382060FF7A00946F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD5573A2060FF7A00946F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD5573F2060FF7A00946F21 /* GoogleSigninReusabelComponetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSigninReusabelComponetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CD557432060FF7A00946F21 /* GoogleSigninReusabelComponetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSigninReusabelComponetsTests.swift; sourceTree = "<group>"; };
-		0CD557452060FF7A00946F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD5574A2060FF7A00946F21 /* GoogleSigninReusabelComponetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSigninReusabelComponetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CD5574E2060FF7A00946F21 /* GoogleSigninReusabelComponetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSigninReusabelComponetsUITests.swift; sourceTree = "<group>"; };
-		0CD557502060FF7A00946F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CD5576720611E4D00946F21 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		0CD5576920611E5500946F21 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		0CD5576B206129CD00946F21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -99,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				0CD5572D2060FF7900946F21 /* GoogleSigninReusabelComponets */,
-				0CD557422060FF7A00946F21 /* GoogleSigninReusabelComponetsTests */,
-				0CD5574D2060FF7A00946F21 /* GoogleSigninReusabelComponetsUITests */,
 				0CD5572C2060FF7900946F21 /* Products */,
 				D422C530021996144E9414AE /* Pods */,
 				F329EADEF3E03E5020D7A520 /* Frameworks */,
@@ -130,24 +122,6 @@
 				0CD5576B206129CD00946F21 /* README.md */,
 			);
 			path = GoogleSigninReusabelComponets;
-			sourceTree = "<group>";
-		};
-		0CD557422060FF7A00946F21 /* GoogleSigninReusabelComponetsTests */ = {
-			isa = PBXGroup;
-			children = (
-				0CD557432060FF7A00946F21 /* GoogleSigninReusabelComponetsTests.swift */,
-				0CD557452060FF7A00946F21 /* Info.plist */,
-			);
-			path = GoogleSigninReusabelComponetsTests;
-			sourceTree = "<group>";
-		};
-		0CD5574D2060FF7A00946F21 /* GoogleSigninReusabelComponetsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0CD5574E2060FF7A00946F21 /* GoogleSigninReusabelComponetsUITests.swift */,
-				0CD557502060FF7A00946F21 /* Info.plist */,
-			);
-			path = GoogleSigninReusabelComponetsUITests;
 			sourceTree = "<group>";
 		};
 		0CD5575C206100AC00946F21 /* LoginManager */ = {
@@ -333,7 +307,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,7 +468,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD557442060FF7A00946F21 /* GoogleSigninReusabelComponetsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,7 +475,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CD5574F2060FF7A00946F21 /* GoogleSigninReusabelComponetsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
