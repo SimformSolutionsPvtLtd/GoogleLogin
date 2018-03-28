@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct UserData: NSObject {
+struct UserData {
     var userId = ""
     var idToken = ""
     var fullName = ""
